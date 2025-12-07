@@ -1,0 +1,22 @@
+.skillsContainer {
+  margin: 20px;
+}
+
+.skillsContent {
+  display: flex;
+  align-items: center;
+  width: 20vw;
+  height: 8vh;
+}
+
+.skillsImages {
+  width: 50px;
+}
+
+.skillName {
+  font-size: 15px;
+  color: white;
+  font-family: 'Roboto';
+  margin: 5px;
+  font-weight: 500;
+}

@@ -1,0 +1,33 @@
+.homeContainer {
+  background-color: #121212;
+  height: 100vh;
+  color: white;
+}
+
+.jobDescriptionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.homeImage {
+  width: 70vw;
+  height: 70vh;
+  align-self: flex-end;
+}
+
+.jobButton {
+  padding: 10px 24px;
+  border-width: 0px;
+  border-radius: 5px;
+  background-color: #4f46e5;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.whole-cont {
+  display: flex;
+  flex-direction: column;
+}

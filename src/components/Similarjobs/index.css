@@ -1,0 +1,59 @@
+.similarJob-Container {
+  background-color: #272727;
+  border-radius: 7px;
+  margin: 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 22vw;
+  height: 60vh;
+  padding: 20px;
+}
+
+.titleAndRating-container {
+  margin: 15px;
+}
+
+.companyContainer {
+  display: flex;
+  align-items: center;
+}
+
+.jobTitle-similar {
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.ratingSimilar {
+  color: white;
+  margin: 5px;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+.ratingContainer {
+  display: flex;
+  align-items: center;
+}
+
+.description-Similar {
+  color: white;
+  font-weight: 400;
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 0.6cm;
+}
+
+.descriptionTitle-similar {
+  color: white;
+  font-weight: 600;
+  font-family: 'Roboto';
+  font-size: 19px;
+}
+
+@media (max-width: 576px) {
+  .similarJob-Container {
+    max-width: 80vw;
+  }
+}

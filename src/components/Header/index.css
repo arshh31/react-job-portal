@@ -1,0 +1,38 @@
+.nav-header {
+  background-color: #272727;
+  height: 10vh;
+}
+
+.nav-content {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-link {
+  margin: 7px;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.website-logo {
+  width: 130px;
+  margin: 10px;
+}
+
+.logout-desktop-btn {
+  padding: 7px 14px;
+  background-color: #4f46e5;
+  border-radius: 5px;
+  border-width: 0px;
+  color: white;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
